@@ -1,5 +1,5 @@
 # UUCustomRoot
-Make UINavigationController can pop to any specified UIViewController in it's stack.
+A category that makes UINavigationController can pop to any specified UIViewController in it's stack.
 
 ## Usage
 Think a UINavigationController stack like this. And we want to pop to [aViewController] from [cViewController].
