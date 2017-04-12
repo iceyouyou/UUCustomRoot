@@ -10,7 +10,7 @@ How can we pop back to [aViewController]?
 ----------------------
 | bViewController    |
 ----------------------
-| aViewController    | <-- pop target
+| aViewController    | <-- pop back
 ----------------------
 | rootViewController |
 ----------------------
