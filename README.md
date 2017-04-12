@@ -2,7 +2,8 @@
 A category that makes UINavigationController can pop to any specified UIViewController in it's stack.
 
 ## Usage
-Think a UINavigationController stack like this. And we want to pop to [aViewController] from [cViewController].
+For example, think a UINavigationController stack like this. Currently [cViewController] is Showing on the screen.
+How can we pop back to [aViewController]?
 ```objective-c
 ----------------------
 | cViewController    | <-- showing UIViewController
@@ -27,7 +28,7 @@ Implement `isCustomRootViewController` method in [aViewController]:
 }
 ```
 
-Do pop action whit `popToCustomRootViewControllerAnimated` in [cViewController]:
+Pop back to [aViewController] by using `popToCustomRootViewControllerAnimated` method in [cViewController]:
 ```objective-c
 [self.navigationController popToCustomRootViewControllerAnimated:YES];
 ```
