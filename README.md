@@ -2,7 +2,7 @@
 A category that makes UINavigationController can pop to any specified UIViewController in it's stack.
 
 ## Usage
-For example, think a UINavigationController stack like this. Currently [cViewController] is Showing on the screen.
+For example, think a UINavigationController stack like this. Currently [cViewController] is Showing on the screen. 
 How can we pop back to [aViewController]?
 ```objective-c
 ----------------------
